@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import classnames from 'classnames';
 
 import '../styles/css/search.css';
 
@@ -42,7 +43,7 @@ class Search extends Component {
     return (
       <div className="search">
         <input type="search" placeholder={placeholder} value={city} onChange={this.onChange} />
-        <button className="button hollow expanded" onClick={this.onSearch}>Search</button>
+        <button className={classnames('button', { disabled: !city})} onClick={this.onSearch}>Search</button>
       </div>
     );
   }

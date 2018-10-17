@@ -14,5 +14,10 @@
     background: $primary;
     color: #fff;
     font-size: 14px;
+
+    &.disabled {
+      pointer-events: none;
+      background: $background;
+    }
   }
 }
