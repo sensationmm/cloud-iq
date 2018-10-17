@@ -1,7 +1,7 @@
 import {
-  GET_DATA_BEGIN,
-  GET_DATA_ERROR,
-  GET_DATA_SUCCESS
+  GET_WEATHER_BEGIN,
+  GET_WEATHER_ERROR,
+  GET_WEATHER_SUCCESS
 } from '../config/constants';
 
 const initialState = {
@@ -10,14 +10,14 @@ const initialState = {
 
 export const loader = (state = initialState, action) => {
   switch (action.type) {
-    case GET_DATA_BEGIN:
+    case GET_WEATHER_BEGIN:
       return {
         ...initialState,
         isLoading: true,
       };
 
-    case GET_DATA_SUCCESS:
-    case GET_DATA_ERROR:
+    case GET_WEATHER_SUCCESS:
+    case GET_WEATHER_ERROR:
       return initialState;
 
     default:

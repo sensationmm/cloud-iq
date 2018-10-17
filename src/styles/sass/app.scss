@@ -8,6 +8,14 @@ body {
   font-size: 14px;
 }
 
+.body {
+  width: 500px;
+  padding: 20px;
+  background: $backgroundContent;
+  border: 1px solid $border;
+  margin: 0 auto;
+}
+
 h1 {
   text-align: center;
 }

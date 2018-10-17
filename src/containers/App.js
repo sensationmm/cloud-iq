@@ -1,13 +1,13 @@
 import React from 'react';
 
-import Home from './Home';
+import Weather from './Weather';
 
 import '../styles/css/app.css';
 
 const App = () => (
   <div>
     <main>
-       <Home />
+       <Weather />
     </main>
   </div>
 );
