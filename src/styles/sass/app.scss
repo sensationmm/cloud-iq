@@ -1,0 +1,19 @@
+@import './modules/reset';
+@import './modules/colors';
+
+body {
+  font-family: arial;
+  background: $background;
+  padding: 30px;
+  font-size: 14px;
+}
+
+h1 {
+  text-align: center;
+}
+
+@media screen and (max-width: 360px) {
+  body {
+    padding: 10px;
+  }
+}
