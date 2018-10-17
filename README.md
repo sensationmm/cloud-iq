@@ -1,6 +1,6 @@
 ## CloudIQ Tech Test
 
-A working demo of this app can be found on Heroku at https://cloud-iq-test.herokuapp.com/
+A working demo of this app can be found on Heroku at http://cloud-iq-test.herokuapp.com/
 
 To get a local version:
 ```
@@ -10,7 +10,15 @@ npm install
 npm start
 ```
 
-To run the test suite (basic set of tests):
+To run the test suite:
 ```
 npm test
 ```
+
+### Known issues
+
+I setup a test for the api call but could not get it to return success, even though it runs fine through the app
+
+### Further development
+
+Make it look visually more attactive, predictive results on city search
